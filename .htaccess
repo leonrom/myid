@@ -1,0 +1,7 @@
+#     Эта директива заставит Apache искать 
+ #    "index_good.html" перед "index.html"  
+     DirectoryIndex index_good.html index.html
+    
+AuthType Basic   
+AuthName admin 
+# require valid-user

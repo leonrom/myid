@@ -1,0 +1,14 @@
+15:36:27 INFO ./gethint.9                | start 
+15:36:27 INFO ./gethint.13/DB.130        ^ __construct(...) 
+15:36:27 INFO ./gethint.13/DB.137/DB.34  ^ connectDB(mysql, localhost, cc18, leonrom, , cp1251) 
+15:36:27 INFO ./gethint.13/DB.137/DB.46    DB `cc18` created/connected and used 
+15:36:27 INFO ./gethint.13/DB.141          __construct(...):  self::TABUSER 
+15:36:27 INFO ./gethint.13/DB.142/DB.57  ^ stmsTest(...) 
+15:36:27 INFO ./gethint.13/DB.150/DB.107           ^ openTable(cc18, blogusers) 
+15:36:27 INFO ./gethint.13/DB.150/DB.113             openTable(...) N=1 
+15:36:27 INFO ./gethint.13/DB.152          __construct(...):  self::TABHIST 
+15:36:27 INFO ./gethint.13/DB.159/DB.107           ^ openTable(cc18, history) 
+15:36:27 INFO ./gethint.13/DB.159/DB.113             openTable(...) N=1 
+15:36:27 INFO ./gethint.13/DB.161/DB.73  ^ stmsInit(...) 
+15:36:27 INFO ./gethint.31               | allowed:  
+15:36:27 INFO ./gethint.47               ({"result":"Успешно"}) 
